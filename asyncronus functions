@@ -1,0 +1,260 @@
+25/01/2025
+
+ Callback functions:
+You can pass the callback function as an argument to another function
+
+Execution:
+The function receving the callback will execute the callback at some point during execution(often at the end or after an asynchronous operation is done)
+
+Example:
+function mainfunction(callback)
+console.log(“Executing main function”);
+callback()
+// here we call the callback function
+}
+function callbackFunction(){
+console.log(“callback function executed”)
+}
+mainfunction(callback Function);
+
+exp:
+mainfunction takes a parameter callback
+callback function is passes as an argument to mainfunction inside the mainfunction,the callback function.
+
+output:
+mainfunction(callback Function);
+it will execute the code inside the mainfunction
+it will print(“Executing main function”);
+then it  reaches the callback(); where it call the function which is passes to main function(callback function).
+
+Example-2
+Passing a named function as callback;
+Function greet(name ,callback) {
+Console.log(“hello” +name);
+Callback();  //executes the callback function after greeting
+}
+Function.goodbye(){
+Console.log(“Goodbye!”)
+}
+Greet(“Pavani”,goodbye);
+
+Using an anonymous function as a callback
+Ex:
+function greet(nme ,callback) {
+    console.log("hello swathi" +name);
+    callback();
+}
+function goodbye(){
+    console.log("Goodbye!")
+}
+greet("swathi",goodbye);
+output:
+ 
+Example:
+function fetchData(callback){
+    console.log("Fetching data....")
+    setTimeout(function(){
+        console.log("Data fetched");
+        callback();
+    },2000);
+}
+function processData(){
+    console.log("processing the fetched data...")
+}
+fetchData(processData);
+
+25/01/2025
+
+ Callback functions:
+You can pass the callback function as an argument to another function
+
+Execution:
+The function receving the callback will execute the callback at some point during execution(often at the end or after an asynchronous operation is done)
+
+Example:
+function mainfunction(callback)
+console.log(“Executing main function”);
+callback()
+// here we call the callback function
+}
+function callbackFunction(){
+console.log(“callback function executed”)
+}
+mainfunction(callback Function);
+
+exp:
+mainfunction takes a parameter callback
+callback function is passes as an argument to mainfunction inside the mainfunction,the callback function.
+
+output:
+mainfunction(callback Function);
+it will execute the code inside the mainfunction
+it will print(“Executing main function”);
+then it  reaches the callback(); where it call the function which is passes to main function(callback function).
+
+Example-2
+Passing a named function as callback;
+Function greet(name ,callback) {
+Console.log(“hello” +name);
+Callback();  //executes the callback function after greeting
+}
+Function.goodbye(){
+Console.log(“Goodbye!”)
+}
+Greet(“Pavani”,goodbye);
+
+Using an anonymous function as a callback
+Ex:
+function greet(nme ,callback) {
+    console.log("hello swathi" +name);
+    callback();
+}
+function goodbye(){
+    console.log("Goodbye!")
+}
+greet("swathi",goodbye);
+output:
+ 
+Example:
+function fetchData(callback){
+    console.log("Fetching data....")
+    setTimeout(function(){
+        console.log("Data fetched");
+        callback();
+    },2000);
+}
+function processData(){
+    console.log("processing the fetched data...")
+}
+fetchData(processData);
+
+25/01/2025
+
+ Callback functions:
+You can pass the callback function as an argument to another function
+
+Execution:
+The function receving the callback will execute the callback at some point during execution(often at the end or after an asynchronous operation is done)
+
+Example:
+function mainfunction(callback)
+console.log(“Executing main function”);
+callback()
+// here we call the callback function
+}
+function callbackFunction(){
+console.log(“callback function executed”)
+}
+mainfunction(callback Function);
+
+exp:
+mainfunction takes a parameter callback
+callback function is passes as an argument to mainfunction inside the mainfunction,the callback function.
+
+output:
+mainfunction(callback Function);
+it will execute the code inside the mainfunction
+it will print(“Executing main function”);
+then it  reaches the callback(); where it call the function which is passes to main function(callback function).
+
+Example-2
+Passing a named function as callback;
+Function greet(name ,callback) {
+Console.log(“hello” +name);
+Callback();  //executes the callback function after greeting
+}
+Function.goodbye(){
+Console.log(“Goodbye!”)
+}
+Greet(“Pavani”,goodbye);
+
+Using an anonymous function as a callback
+Ex:
+function greet(nme ,callback) {
+    console.log("hello swathi" +name);
+    callback();
+}
+function goodbye(){
+    console.log("Goodbye!")
+}
+greet("swathi",goodbye);
+output:
+ 
+Example:
+function fetchData(callback){
+    console.log("Fetching data....")
+    setTimeout(function(){
+        console.log("Data fetched");
+        callback();
+    },2000);
+}
+function processData(){
+    console.log("processing the fetched data...")
+}
+fetchData(processData);
+
+25/01/2025
+
+ Callback functions:
+You can pass the callback function as an argument to another function
+
+Execution:
+The function receving the callback will execute the callback at some point during execution(often at the end or after an asynchronous operation is done)
+
+Example:
+function mainfunction(callback)
+console.log(“Executing main function”);
+callback()
+// here we call the callback function
+}
+function callbackFunction(){
+console.log(“callback function executed”)
+}
+mainfunction(callback Function);
+
+exp:
+mainfunction takes a parameter callback
+callback function is passes as an argument to mainfunction inside the mainfunction,the callback function.
+
+output:
+mainfunction(callback Function);
+it will execute the code inside the mainfunction
+it will print(“Executing main function”);
+then it  reaches the callback(); where it call the function which is passes to main function(callback function).
+
+Example-2
+Passing a named function as callback;
+Function greet(name ,callback) {
+Console.log(“hello” +name);
+Callback();  //executes the callback function after greeting
+}
+Function.goodbye(){
+Console.log(“Goodbye!”)
+}
+Greet(“Pavani”,goodbye);
+
+Using an anonymous function as a callback
+Ex:
+function greet(nme ,callback) {
+    console.log("hello swathi" +name);
+    callback();
+}
+function goodbye(){
+    console.log("Goodbye!")
+}
+greet("swathi",goodbye);
+output:
+ 
+Example:
+function fetchData(callback){
+    console.log("Fetching data....")
+    setTimeout(function(){
+        console.log("Data fetched");
+        callback();
+    },2000);
+}
+function processData(){
+    console.log("processing the fetched data...")
+}
+fetchData(processData);
+
