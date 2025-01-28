@@ -1,0 +1,51 @@
+28/01/2025
+
+(DOM) – Document object model
+--it is used in web development used to interact and manipulate(change)the html documents.
+When the web page is loaded, the browser created DOM of the webpage
+When the html file is loaded into the browser , the java script cannot understand the html document directly.
+DOM: it is basically the representation of the same html document but in a tree-like structure composed of object.
+Key points:
+1)	Structure: The DOM represents the structure of HTML documents as a tree. Each node in a tree represents the elements, an attribute or text
+2)	Manipulation: Using java script , you can interact with elements (buttons, paragraphs) on the webpage, changing the content  styles, can add or remove elements.
+3)	 Event handling: you can handle the interactions, like click or pressing the button
+4)	W3C (world wide web consortium)
+
+DOM:
+--document is the entry point of DOM
+
+
+
+
+Basic html structure:
+
+
+
+
+
+
+
+:
+
+
+<html>
+<head>
+<title>Mallareddy college <title>
+</head>
+<body>
+<h1> I am in hyd </h1>
+</body>
+</html>
+
+Methods of document objects:
+--used to interact with and manipulate the document 
+Getting element:
+1) Getting an element by id:
+2) Getting an element by class:
+3) Getting an element by tag:
+4) Getting an element by query selector:
+ 
+# id and class;
+
+
+
