@@ -1,0 +1,110 @@
+
+29/01/2025
+
+1)	Get an element by id:
+
+<body>
+    <h1 id="a">I am swathi</h1>
+    <h1 id="b">I am ammu</h1>
+    <h1 id="c">I am cherry</h1>
+    <script>
+        let x=document.getElementById('a')
+        console.log(x)
+    </script>
+</body>
+
+O/P;
+I am swathi
+I am ammu
+I am cherry
+In console:
+<h1 id="a">I am swathi</h1>
+
+2)	Getting an element by class: returns an html collection of elements.
+   
+ <h1 id ="a" class ="a"> I amcherry</h1>
+    <h1 id="b"  class ="b"> i am ammu</h1>
+    <h1 id="c"  class ="a"> iam swathi</h1>
+
+    <h1 class="a"> ia m kavya</h1>
+    <script>
+        let x =document.getElementByClassname('a')
+        console.log(a)
+        </script>
+o/p;
+I amcherry
+i am ammu
+iam swathi
+ia m kavya
+
+3)	Getting an elements by tag name: 
+      This method takes a tag name as string and returns an HTML collection object.
+Each element loop
+
+ <h1 id ="a" class ="a"> I am cherry</h1>
+        <h1 id="b"  class ="b"> i am ammu</h1>
+        <h1 id="c"  class ="a"> i am swathi</h1>
+        <h1 class="a"> i am kavya</h1>
+        <script>
+        let x =document.getElementByClassname('h1')
+        console.log(a)
+        </script>
+
+    o/p:
+I am cherry
+i am ammu
+i am swathi
+i am kavya
+
+4)	Getting elements by query selector:
+   The document query selector method will select HTML elements by tag Name , by id, class name
+Query selector: can be used to select HTML element by its tag name, by class, by id; it only selects the first element.
+     <h1 id ="aa" class ="a"> I am cherry</h1>
+        <h1 id="b"  class ="b"> i am ammu</h1>
+        <h1 id="c"  class ="a"> i am swathi</h1>
+        <h2 class="a"> i am kavya</h1>
+        <script>
+        let x =document.querySelector('h1')
+        console.log(a)
+        </script>
+o/p:
+I am cherry
+i am ammu
+i am swathi
+i am kavya
+
+Manipulating Elements:
+To create HTML Elements:
+createElement( ) –create a anew element
+--method – document.createElement( )
+
+Text content:
+Single element;
+ <script>
+            let t=document.createElement('h2')
+            t.className="tt"
+            t.textContent="hello ravi"
+            console.log(t)
+            document.body.appendChild(t)
+        </script>
+o/p:
+ hello ravi
+To create multiple elements:
+<script>
+            const t = ['cherry','ammu','swathi']
+            for(let i =0; i<t.length;i++){
+                let tt=document.createElement("h1")
+                tt.className="a"
+                tt.textContent=t[i];
+                console.log(t[i])
+                console.log(tt)
+            }
+        </script>
+o/p:
+ 
+
+
+
+
+
+
