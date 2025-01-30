@@ -1,0 +1,152 @@
+30/01/2025
+DOM
+--get element by id,class,tag
+--queryselector methods
+-- to create a element by using js:
+1)single element
+2)multiple element
+EX;
+<script>
+        let title
+    for(let i=0;i<3;i++){
+        title=document.createElement('h2')
+        title.className='tt'
+        title.textContent=i
+        console.log(title)
+    }
+    </script>
+To create multiple elements:
+<script>
+        const titles =["swathi","cherry","ammu"]
+        for(let i=0;i<titles.length;i++){
+            let title=document.createElement("h1");
+            title.className="a"
+            title.textContent =titles[i]
+            console.log(title)
+        }
+    </script>
+Removing a child element from a parent node:
+        <h1> Removing child Node </h1>
+        <h2> I am swathi </h2>
+        <ul>
+            <li> Swathi </li>
+            <li> Ammu </li>
+            <li> Cherry </li>
+        </ul>
+        <script>
+            const ul =document.querySelector('ul')
+            const lists =document.querySelectorAll('li')
+            for(const list of lists){
+                console.log(Removing: ${list.textContent})
+                ul.removeChild(list)
+            }
+        </script>
+    
+O/P:
+Removing child Node
+I am swathi
+Console o/p:
+Removing: Swathi
+Removing: Ammu
+Removing: Cherry
+To Append a new element:
+Append() – To append a new element ton parent node.
+<div id="a">
+            <h1>Swathi</h1>
+            <h1>Pavani</h1>
+        </div>
+
+        <div id="b">
+            <h1>Ammu</h1>
+            <h1> Cherry</h1>
+        </div>
+        <script>
+            let n=document.createElement("h2")
+            n.textContent="Pavani is the Team leader"
+            ///get the parent element
+            let p=document.getElementById("b")
+            ///append the new element to the parent node 
+            p.appendChild(n)
+            ///log the inner Text of the parent
+            console.log(p)
+            console.log(p.innerText)
+        </script>
+o/p:
+Swathi
+Pavani
+Ammu
+Cherry
+Pavani is the Team leader
+Console o/p:
+Ammu
+Cherry
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        let title
+    for(let i=0;i<3;i++){
+        title=document.createElement('h2')
+        title.className='tt'
+        title.textContent=i
+        console.log(title)
+    }
+    </script> -->
+    <!-- <script>
+        const titles =["swathi","cherry","ammu"]
+        for(let i=0;i<titles.length;i++){
+            let title=document.createElement("h1");
+            title.className="a"
+            title.textContent =titles[i]
+            console.log(title)
+        }
+    </script> -->
+    
+        <!-- <h1> Removing child Node </h1>
+        <h2> I am swathi </h2>
+        <ul>
+            <li> Swathi </li>
+            <li> Ammu </li>
+            <li> Cherry </li>
+        </ul>
+        <script>
+            const ul =document.querySelector('ul')
+            const lists =document.querySelectorAll('li')
+            for(const list of lists){
+                console.log(Removing: ${list.textContent})
+                ul.removeChild(list)
+            }
+        </script> -->
+        <!-- <div id="a">
+            <h1>Swathi</h1>
+            <h1>Pavani</h1>
+        </div>
+
+        <div id="b">
+            <h1>Ammu</h1>
+            <h1> Cherry</h1>
+        </div>
+        <script>
+            let n=document.createElement("h2")
+            n.textContent="Pavani is the Team leader"
+            ///get the parent element
+            let p=document.getElementById("b")
+            console.log(p.innerText)      //swathi,pavani
+            ///append the new element to the parent node 
+            p.appendChild(n)
+            ///log the inner Text of the parent
+            console.log(p)
+            console.log(p.innerText)
+        </script> -->
+
+
+    
+    
+</body>
+</html>
