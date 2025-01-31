@@ -1,0 +1,72 @@
+31/01/2025
+
+DOM:
+1) Create a new element (single,multiple)
+2) Append a element inside the parent code
+   Add the element at the end
+3) InsertBefore (): insert a new node before an existing node or child note of a specific parent code
+---this requires a reference to both the new node and the existing node you want to insert before.
+
+ <div id="a">
+            <h1>Sweety</h1>
+            <h1 id=”b”>Ammu</h1>
+        </div>
+        <div id="b">
+            <h2>Cherry</h2>
+            <h2>Chotu</h2>
+        </div>
+    <script>
+        let n=document.createelement("h2")
+        n.textContent="Swathi"
+
+        let p=document.getElementById("a")
+        let l=document.getElementById("b")
+        p.insertBefore(n,l)
+        console.log(n)
+    </script>
+
+O/P:
+ 
+Ex:2
+ <body>
+        <div id = "a">
+            <h1 id = "c">cherry</h1>
+            <h1 id = "r">chandu</h1>
+        </div>
+        <div id = "b">
+            <h2>chotu</h2>
+            <h2>chintu</h2>
+        </div>
+        
+        <script>
+    
+            let s = document.createElement("h2")
+            s.textContent = "Swathi"
+    
+            let n = document.createElement("h2")
+            n.textContent = "Ammu"
+    
+    
+            let p = document.getElementById('a')
+            let l = document.getElementById('r')
+            p.insertBefore(n,l)
+            console.log(p)
+    
+            let q = document.getElementById('c')
+            p.insertBefore(s,q)
+            
+        </script>   
+    </body>
+        
+O/P:
+ 
+To remove an element:
+Let b=document.getElementById(“b”)
+b.remove( )
+
+To remove an child Element:
+remove child( )
+
+
+
+
